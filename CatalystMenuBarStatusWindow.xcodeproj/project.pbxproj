@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B071197828FF933E006C982C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B071197728FF933E006C982C /* Constants.swift */; };
+		B071197928FF933E006C982C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B071197728FF933E006C982C /* Constants.swift */; };
 		B090024227B6D68300FD0BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B090024127B6D68300FD0BAB /* Assets.xcassets */; };
 		B090024627B6D68300FD0BAB /* MSWAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090024527B6D68300FD0BAB /* MSWAppDelegate.swift */; };
 		B090024827B6D68300FD0BAB /* MSWSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090024727B6D68300FD0BAB /* MSWSceneDelegate.swift */; };
@@ -47,6 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B071197728FF933E006C982C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B090023E27B6D68300FD0BAB /* CatalystMenuBarStatusWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatalystMenuBarStatusWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B090024127B6D68300FD0BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B090024527B6D68300FD0BAB /* MSWAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSWAppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +119,7 @@
 		B090024327B6D68300FD0BAB /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				B071197728FF933E006C982C /* Constants.swift */,
 				B090024427B6D68300FD0BAB /* Application */,
 				B090024B27B6D68300FD0BAB /* Main */,
 				B090025727B6D69300FD0BAB /* Status Window */,
@@ -279,6 +283,7 @@
 				B090024627B6D68300FD0BAB /* MSWAppDelegate.swift in Sources */,
 				B090024D27B6D68300FD0BAB /* MSWMainViewController.swift in Sources */,
 				B090024A27B6D68300FD0BAB /* MSWSceneDelegate+NSToolbar.swift in Sources */,
+				B071197828FF933E006C982C /* Constants.swift in Sources */,
 				B090025927B6D6AB00FD0BAB /* MSWStatusViewController.swift in Sources */,
 				B090024827B6D68300FD0BAB /* MSWSceneDelegate.swift in Sources */,
 			);
@@ -288,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B071197928FF933E006C982C /* Constants.swift in Sources */,
 				B090026B27B6D79D00FD0BAB /* MSWStatusItemController.swift in Sources */,
 				B090026927B6D78100FD0BAB /* AppKitController.swift in Sources */,
 				B090027227B6D85F00FD0BAB /* MSWNotifications.swift in Sources */,

@@ -17,7 +17,9 @@ extension NSPopover {
 		 element.
 		 
 		 */
+
 		if let _ = value(forKeyPath: "positioningView") as? NSStatusBarButton {
+			
 			return MSW_setContentSize(CGSize(width:246, height:380))
 		}
 		
@@ -41,7 +43,7 @@ extension NSPopover {
 		 
 		 */
 		
-		if ofView == nil {
+		if rect.size.equalTo(CGSize(width: MSWMenuPopoverTriggerSize, height: MSWMenuPopoverTriggerSize)) {
 			
 			if let sender = MSWStatusItem.button {
 				

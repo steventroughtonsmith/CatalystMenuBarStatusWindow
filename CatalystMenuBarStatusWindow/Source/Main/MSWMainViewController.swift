@@ -50,12 +50,9 @@ final class MSWMainViewController: UIHostingController<ContentView> {
 		
 		let vc = MSWStatusViewController()
 		vc.modalPresentationStyle = .popover
-		
-		let dummyView = UIView()
-		dummyView.frame = CGRect(x: 0, y: 0, width: 40, height: 40)
-		
-		vc.popoverPresentationController?.sourceView = dummyView
-		vc.popoverPresentationController?.sourceRect = dummyView.bounds
+				
+		vc.popoverPresentationController?.sourceView = self.view
+		vc.popoverPresentationController?.sourceRect = CGRect(x: 0, y: 0, width: MSWMenuPopoverTriggerSize, height: MSWMenuPopoverTriggerSize)
 		vc.popoverPresentationController?.permittedArrowDirections = [.any]
 		vc.popoverPresentationController?.canOverlapSourceViewRect = true
 		
